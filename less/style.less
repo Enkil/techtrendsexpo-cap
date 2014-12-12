@@ -20,6 +20,11 @@ main{
 	width: 925px;
 	margin: 0 auto;
 
+	.scale{
+		transition-duration: 1s;
+		&:hover{transform: scale(1.5);}
+	}
+
 	p.head{
 		color: #fff;
 		font-weight: bold;
@@ -80,6 +85,9 @@ main{
 		float: left;
 		text-transform: uppercase;
 		text-align: center;
+
+		// transition-duration: 1s;
+		// &:hover{transform: scale(1.5);}
 
 		a{
 			text-decoration: none;
